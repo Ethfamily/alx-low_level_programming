@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ *  main - program entry point
+ *
+ *  Return: 0 on success
+ */
 int main(void)
 {
 	char ch = 'a';
