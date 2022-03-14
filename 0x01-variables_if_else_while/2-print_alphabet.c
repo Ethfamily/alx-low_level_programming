@@ -5,7 +5,7 @@ int main(void)
 	char a = 'a';
 	int x = 0;
 
-	while (n < 26)
+	while (x < 26)
 	{
 		putchar(a);
 		a++;
