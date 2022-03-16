@@ -4,7 +4,7 @@
  * @c: takes in a character
  * Return: 1 if letter, lowercase, uppercase; 0 for otherwise
  */
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
