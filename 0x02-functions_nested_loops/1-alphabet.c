@@ -10,7 +10,7 @@
 char print_alphabet(void);
 int main(void)
 {
-	print_alphabet(b);
+	print_alphabet();
 	return (0);
 }
 char print_alphabet(void)
