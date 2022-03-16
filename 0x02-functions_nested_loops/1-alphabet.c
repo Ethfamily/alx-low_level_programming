@@ -3,9 +3,7 @@
 /**
 *main-Entry point
 *
-*function print_alpha:builtin function
-*
-*function main :Entry point
+*function print_alphabet:builtin function
 *
 *Return:lways 0 (Success)
 */
@@ -17,9 +15,12 @@ int main(void)
 }
 char print_alphabet(void)
 {
-	int = a;
-	for (a = 97; a < 124; a++)
+	int = i;
+	for (i = 97; i < 124; i++)
 	{
-		putchar('%C');
+		char c = (char)i
+
+		putchar(c);
 	}
+	return (0);
 }
