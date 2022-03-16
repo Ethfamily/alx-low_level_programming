@@ -5,7 +5,7 @@
 *
 *function print_alphabet:builtin function
 *
-*Return:lways 0 (Success)
+*Return:Always 0 (Success)
 */
 void print_alphabet(void);
 int main(void)
@@ -21,5 +21,6 @@ void print_alphabet(void)
 
 		putchar(c);
 	}
-	return (0);
+	putchar('\n');
+	return ;
 }
