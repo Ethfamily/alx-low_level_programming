@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main -output int, entry ,input void
+ * main  - Entry point
  *
- * return zero mean true
+ * return:Always 0 (succes)
  */
+
 int main(void)
 {
 	int i;
