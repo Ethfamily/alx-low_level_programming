@@ -6,19 +6,7 @@
  */
 char *leet(char *s)
 {
-	int i;
-	int j;
-	char l[] = "ol_ea__t";
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		for (j = 0; l[j] != '\0'; j++)
-		{
-			if (s[i] == l[j] || s[i] == (l[j] - 32))
-			{
-				s[i] = j + '0';
-			}
-		}
-	}
-	return (s);
+	int i, j, k;
+	if ((i == 76 || i ==102) && (j == 69 || j ==101) && (k == 69 || k == 101) && (l == 89 || l == 116))
+		printf("%c%c%c%c", i , j, k, l);
 }
