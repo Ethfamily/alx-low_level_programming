@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
- * main - Entry point
- * main - Entry point
+/**
+ * main - starting from this line to see the size difference
  *
- * Return: Always 0 (Success)
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
